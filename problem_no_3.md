@@ -4,7 +4,7 @@
 - What is the largest prime factor of the number 600851475143 ?
 - URL : https://projecteuler.net/problem=3
 # Solution
-1. factorization of given number.
+## factorization of given number.
 
 first of all, I need to perform factorization of given number. given number is quite big, so if i try with simple while loop with linear incremental(`x = x + 1`) step, it's result will be took devastatingly long period.
 ```python
@@ -42,7 +42,7 @@ least we could halting loop when loop value is reaching over `sqrt(n)` value. wi
 
 and, we can take another half-part of factorization result by simple devide from given number with 1-sqrt(n) loop result
 
-2. check prime number.
+## check prime number.
 
 ok, then we need to check given value is prime number. just devide given number from 1 to given number and make checks that is multiple of some specific value that is not equal to given number or 1.
 
